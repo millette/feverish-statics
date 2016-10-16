@@ -14,28 +14,7 @@ const after = (server, next) => {
   }
 
   ['css', 'img', 'js'].forEach(addRoute)
-  /*
-  server.route({
-    method: 'GET',
-    path: '/css/{param*}',
-    handler: { directory: { path: './assets/css/' } }
-  })
 
-  server.route({
-    method: 'GET',
-    path: '/img/{param*}',
-    handler: { directory: { path: './assets/img/' } }
-  })
-
-  server.route({
-    method: 'GET',
-    path: '/js/{param*}',
-    config: {
-      auth: false,
-      handler: { directory: { path: './assets/js/' } }
-    }
-  })
-  */
   next()
 }
 
