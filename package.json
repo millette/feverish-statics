@@ -13,7 +13,6 @@
   "dependencies": {
     "inert": "^4.0.2"
   },
-  "notHapiPlugins": [],
   "keywords": [
     "feverish"
   ],
