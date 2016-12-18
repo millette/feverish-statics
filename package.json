@@ -8,10 +8,10 @@
     "test": "standard"
   },
   "devDependencies": {
-    "standard": "^8.5.0"
+    "standard": "^8.6.0"
   },
   "dependencies": {
-    "inert": "^4.0.2"
+    "inert": "^4.0.3"
   },
   "keywords": [
     "feverish"
